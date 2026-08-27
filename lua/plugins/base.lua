@@ -48,13 +48,6 @@ return {
     end,
   }, -- To make a plugin not be loaded
   {
-    "numToStr/Comment.nvim",
-    lazy = false,
-    config = function()
-      require("Comment").setup()
-    end,
-  },
-  {
     "hat0uma/csvview.nvim",
     config = function()
       require("csvview").setup()
